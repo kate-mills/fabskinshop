@@ -96,6 +96,7 @@ const FooterWrapper = styled.footer`
   }
   .tiny-last-p {
     font-size: 0.75rem;
+    margin-bottom: 3.3rem;
   }
   @media (min-width: 768px) {
     .phone-email-box{
@@ -106,6 +107,9 @@ const FooterWrapper = styled.footer`
         display:unset;
         margin: 0 .34rem;
       }
+    }
+    .tiny-last-p {
+      margin-bottom: 0;
     }
   }
 `

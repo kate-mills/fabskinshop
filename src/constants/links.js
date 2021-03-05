@@ -26,8 +26,8 @@ const navigationLinks = [
     ],
   },
   {
-    page: "Schedule",
-    path: "/schedule/",
+    page: "Contact Us",
+    path: "/contact/",
     links: [],
   },
 ];

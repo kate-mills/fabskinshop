@@ -10,8 +10,8 @@
     aria-labeledby="#img-title"
     aria-describedby="#img-desc"
   >
-    <tspan x="0" y="0">Super Skin <tspan class="cls-2">Spa</tspan></tspan>
+    <tspan x="0" y="0">Fab Skin <tspan class="cls-2">Shop</tspan></tspan>
   </text>
-  <title id="img-title">Super Skin Spa</title>
-  <desc id="img-desc">Graphic text that says, "Super Skin Spa"</desc>
+  <title id="img-title">Fab Skin Shop</title>
+  <desc id="img-desc">Graphic text that says, "Fab Skin Shop"</desc>
 </svg>

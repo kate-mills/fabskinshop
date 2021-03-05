@@ -59,7 +59,7 @@ const Contact = ({treatment}) => {
               id="message"
               rows="5"
               className="form-control"
-              placeholder="Scheduling Message"/>
+              placeholder="Message"/>
           </div>
           <div className="radio">
             <div>

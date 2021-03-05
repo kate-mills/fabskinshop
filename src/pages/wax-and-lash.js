@@ -17,7 +17,7 @@ const HairRemoval = (props) => {
 
       <Banner title="Waxing & Lash Extensions"><FluidImage fluid={props.data.seoImg.childImageSharp.fluid} maxWidth="1000px"/></Banner>
       
-      <p className="click-to-schedule">Click on any wax & lash service below to get an appointment now.</p>
+      <p className="click-to-schedule">Click on any service below to contact us about an appointment now.</p>
 
       <section className="menu-box">
         <ServiceItems category="Extras" items={extras} />
@@ -26,9 +26,8 @@ const HairRemoval = (props) => {
         <ServiceItems category="Lashes" items={lash} warning="*Eyelash extensions are synthetic or natural fiber extensions that are individually adhered with a permanent medical-grade adhesive to your own natural lashes, to lengthen, thicken and volumize your look without appearing false or fake. Lash extensions usually last up to 3 weeks. They’re great for a special event or for long-term wear for those who’d prefer not to curl and coat their lashes with mascara on a daily basis. Biweekly touch-ups are recommended."  warningWidth="750px"/>
       </section>
 
-      <p className="click-to-schedule">Click on any wax & lash service above to get an appointment now.</p>
+      <p className="click-to-schedule">Click on any service above to contact us about an appointment now.</p>
 
-      <Btn className="btn" to="/schedule" state={{name: "Waxing, Sprucing, & Shaping", time: "30 min", warning: "*Facial waxing requires the discontinuation of retinoids for 7-10 days prior and is contraindicated for Accutane® users."}} text="Schedule an appointment" backgroundColor="var(--grey)" color="var(--black)"/>
       <Btn className="btn" to="/facials-peels"  text="Facials & Peels Menu" backgroundColor="var(--grey)" color="var(--black)"/>
       <Btn className="btn" to="/makeup"  text="Makeup Menu" backgroundColor="var(--grey)" color="var(--black)"/>
     </PageWrapper>

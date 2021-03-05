@@ -2,9 +2,9 @@ require('dotenv').config({
   path: `.env.${process.env.NODE_ENV}`,
 })
 
-const siteUrl = `https://superskinspa.com` // change to .com url
-const netlifyUrl = `https://superskinspa.netlify.app`
-const companyName = `Super Skin Spa`
+const siteUrl = `https://fabskinshop.netlify.app` //change to .com url
+const netlifyUrl = `https://fabskinshop.netlify.app`
+const companyName = `Fab Skin Shop`
 const description = `${companyName} - Schedule Now! Our treatments include makeup, eyelash extensions, waxing, tinting, & facial rejuvenation spa treatments. We serve Napa, CA and surrounding areas.`
 
 module.exports = {
@@ -27,10 +27,10 @@ module.exports = {
         country: `USA`,
       },
       description: `${description}`,
-      email: `mailto:esty@superskinspa@com`,
+      email: `mailto:esty@fabskinshop.com`,
       displayEmail: {
         prefix: `esty`,
-        suffix: `@superskinspa`,
+        suffix: `@fabskinshop`,
         ext: `.com`,
       },
       geo: {
@@ -39,13 +39,13 @@ module.exports = {
       },
       logo: `${siteUrl}/images/logo.png`, // ./static/images/
       name: `${companyName}`,
-      phone: `+1-707-255-8471`,
-      displayPhone: `(707) 255-8471`,
+      phone: `+1-707-266-8106`,
+      displayPhone: `(707) 266-8106`,
       priceRange: `$$$`,
       otherUrls: [
-        `https://www.facebook.com/pages/Hilary-Molloy-skin-artistry-renewal/286199431401479`,
+        `https://www.facebook.com/pages/allydigitalsolutions`,
         `http://www.yelp.com/biz/hilary-molloy-napa`,
-        `https://instagram.com/itshilarymolloy`,
+        `https://instagram.com/allydigitalsolutions`,
       ],
       url: `${siteUrl}`,
     },
@@ -65,13 +65,13 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name:  `${companyName}`,
-        short_name: `Super Skin`,
+        short_name: `Fab Skin`,
         start_url: `/`,
         description: `${description}`,
         background_color: `#ffb1b1`,
         theme_color: `#ffb1b1`,
         display: `minimal-ui`,
-        icon: `src/images/icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/new-icon.png`, // This path is relative to the root of the site.
         crossOrigin: `use-credentials`,
         icon_options: {
           purpose: `any maskable`,

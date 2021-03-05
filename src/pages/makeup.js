@@ -15,13 +15,14 @@ const Makeup = (props) => {
       description="Learn about makeup, lash extension, & other facial rejuvenation procedures. We serve Napa, CA and surrounding areas."/>
     <PageWrapper>
       <FluidImage fluid={props.data.seoImg.childImageSharp.fluid} maxWidth="1000px"/>
-      <p className="click-to-schedule">Click on a makeup service below to start scheduling your service now.</p>
+      <p className="click-to-schedule">Click on a service below to contact us about about an appointment now.</p>
+
       <div className="menu-box">
         <ServiceItems category="In Studio" items={inStudio} />
         <ServiceItems category="On Location" items={onLocation}/>
       </div>
+      <p className="click-to-schedule">Click on a service above to contact us about about an appointment now.</p>
     <div className="schedule-btns">
-      <p className="click-to-schedule">Click on a makeup service above to start scheduling your service now.</p>
       <Btn className="btn" to="/facials-peels"  text="Facials & Peels Menu" backgroundColor="var(--grey)" color="var(--black)"/>
       <Btn className="btn" to="/wax-and-lash"  text="Waxing & Lashes Menu" backgroundColor="var(--grey)" color="var(--black)"/>
     </div>

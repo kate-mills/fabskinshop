@@ -13,17 +13,15 @@ const FacialsPeels = (props) => {
     />
     <PageWrapper>
         <FluidImage fluid={props.data.seoImg.childImageSharp.fluid} maxWidth="1000px"/>
-      <p className="click-to-schedule">Click on a facial service below to get an appointment now.</p>
+      <p className="click-to-schedule">Click on a facial service below to contact us about about an appointment now.</p>
 
       <section className="menu-box">
         <ServiceItems items={props.data.fp} category="Facials & Peels" />
         <ServiceItems items={props.data.extras} category="Extras" />
       </section>
-      <p className="click-to-schedule">Click on a facial service above to get an appointment now.</p>
-      <Btn className="btn" to="/schedule" text="Schedule an appointment" backgroundColor="var(--grey)" color="var(--black)"/>
+      <p className="click-to-schedule">Click on a facial service above to contact us about about an appointment now.</p>
       <Btn className="btn" to="/wax-and-lash"  text="Waxing & Lashes Menu" backgroundColor="var(--grey)" color="var(--black)"/>
       <Btn className="btn" to="/makeup"  text="Makeup Menu" backgroundColor="var(--grey)" color="var(--black)"/>
-
     </PageWrapper>
   </Layout>
   )

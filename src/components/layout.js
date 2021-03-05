@@ -1,4 +1,5 @@
 import React from "react"
+import { PopupWidget } from "react-calendly"
 
 import { Navbar, Sidebar, Footer, Banner } from "./Complete"
 import { useGlobalContext } from '../context/context'
@@ -18,6 +19,7 @@ const Layout = (props) => {
       <Sidebar isSidebarOpen={isSidebarOpen} toggleSidebar={toggleSidebar} />
       {/* eslint-disable-next-line jsx-a11y/no-static-element-interactions */}
       <div onFocus={closeSubmenu} style={{margin:`0 auto`,maxWidth:960,padding:`1rem 1.0875rem 1.45rem`,}} onMouseOver={closeSubmenu}>
+          <PopupWidget color={`var(--primaryColor)`} text="Schedule Now" textColor="#ffffff" url="https://calendly.com/superskinspa" />
         <main>
           <Banner title={props.title} subtitle={props.subtitle}>
             {props.bannerChildren}
