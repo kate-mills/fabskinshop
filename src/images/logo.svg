@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="175" height="54" viewBox="0 0 2604 738">
+  <defs>
+    <style>.cls-1 {font-size: 80px;text-anchor: middle;font-family:cursive;} .cls-2 {fill: #f08080;}</style>
+  </defs>
+  <text
+    id="Logo_Img"
+    data-name="Logo"
+    class="cls-1"
+    transform="translate(1211.659 444.377) scale(4.963)"
+    aria-labeledby="#img-title"
+    aria-describedby="#img-desc"
+  >
+    <tspan x="0" y="0">Super Skin <tspan class="cls-2">Spa</tspan></tspan>
+  </text>
+  <title id="img-title">Super Skin Spa</title>
+  <desc id="img-desc">Graphic text that says, "Super Skin Spa"</desc>
+</svg>
