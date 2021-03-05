@@ -10,7 +10,7 @@ const ServiceItems = (props) => {
         {props.items.nodes.map(({data:treatment}, index)=> {
           return(
             <div key={index}>
-              <Link to="/schedule" state={{
+              <Link to="/contact" state={{
                 name: treatment.name,
                 time: treatment.time,
                 warning: props.warning,
