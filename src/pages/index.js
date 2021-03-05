@@ -116,7 +116,7 @@ export const query = graphql`
         }
       }
     }
-    file(relativePath: { eq: "default-image.jpg" }) {
+    file(relativePath: { eq: "super-skin/super-skin-spa-default.jpg" }) {
       childImageSharp {
         fluid {
           src
