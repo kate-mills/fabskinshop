@@ -20,7 +20,7 @@ const FacialsPeels = (props) => {
         <ServiceItems items={props.data.extras} category="Extras" />
       </section>
       <p className="click-to-schedule">Click on a facial service above to contact us about about an appointment now.</p>
-      <Btn className="btn" to="/wax-and-lash"  text="Waxing & Lashes Menu" backgroundColor="var(--grey)" color="var(--black)"/>
+      <Btn className="btn" to="/lashes"  text="Waxing & Lashes Menu" backgroundColor="var(--grey)" color="var(--black)"/>
       <Btn className="btn" to="/makeup"  text="Makeup Menu" backgroundColor="var(--grey)" color="var(--black)"/>
     </PageWrapper>
   </Layout>

@@ -16,7 +16,7 @@ const Home = (props) => {
           <h2>Our Menus<span className="underline"/></h2>
           <ul>
           <li className="link"> <Link to="/facials-peels">Facials & Peels</Link> </li>
-          <li className="link"> <Link to="/wax-and-lash">Waxing & Lashes</Link> </li>
+          <li className="link"> <Link to="/lashes">Waxing & Lashes</Link> </li>
           <li className="link"> <Link to="/makeup">Makeup</Link> </li>
           </ul>
         </div>

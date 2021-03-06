@@ -24,7 +24,7 @@ const Makeup = (props) => {
       <p className="click-to-schedule">Click on a service above to contact us about about an appointment now.</p>
     <div className="schedule-btns">
       <Btn className="btn" to="/facials-peels"  text="Facials & Peels Menu" backgroundColor="var(--grey)" color="var(--black)"/>
-      <Btn className="btn" to="/wax-and-lash"  text="Waxing & Lashes Menu" backgroundColor="var(--grey)" color="var(--black)"/>
+      <Btn className="btn" to="/lashes"  text="Waxing & Lashes Menu" backgroundColor="var(--grey)" color="var(--black)"/>
     </div>
     </PageWrapper>
   </Layout>
