@@ -15,13 +15,13 @@ const Home = (props) => {
         <FluidImage maxWidth="500px" fluid={props.data.file.childImageSharp.fluid}/>
           <h2>Our Menus<span className="underline"/></h2>
           <ul>
-          <li className="link"> <Link to="/facials-peels">Facials & Peels</Link> </li>
-          <li className="link"> <Link to="/lashes">Waxing & Lashes</Link> </li>
-          <li className="link"> <Link to="/makeup">Makeup</Link> </li>
+          <li className="link"> <Link to="/treatments">Treatments</Link> </li>
+          <li className="link"> <Link to="/lashes">Lash Extensions</Link> </li>
+          <li className="link"> <Link to="/makeup">Makeup Services</Link> </li>
           </ul>
         </div>
         <div className="flex-item">
-          <h2>About Us<span className="underline"/></h2>
+          <h2>About Fab<span className="underline"/></h2>
           <p>All of our estheticians have worked with Dermatologists & Plastic Surgeons for well over a decade, giving them a clinical approach to skincare.</p>
           <p>With this background and continued education, our Estheticians will offer you a thorough skin analysis, as well as a broad range of treatment options perfectly suited to your needs.</p>
          <Btn className="container-btn" to="/contact" text="Contact Us" backgroundColor="var(--grey)" color="var(--black)" hoverColor="var(--primaryColor)" hoverBackground="var(--primaryColor)" />

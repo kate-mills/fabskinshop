@@ -15,17 +15,13 @@ const Makeup = (props) => {
       description="Learn about makeup, lash extension, & other facial rejuvenation procedures. We serve Napa, CA and surrounding areas."/>
     <PageWrapper>
       <FluidImage fluid={props.data.seoImg.childImageSharp.fluid} maxWidth="1000px"/>
-      <p className="click-to-schedule">Click on a service below to contact us about about an appointment now.</p>
-
       <div className="menu-box">
         <ServiceItems category="In Studio" items={inStudio} />
         <ServiceItems category="On Location" items={onLocation}/>
       </div>
-      <p className="click-to-schedule">Click on a service above to contact us about about an appointment now.</p>
-    <div className="schedule-btns">
-      <Btn className="btn" to="/facials-peels"  text="Facials & Peels Menu" backgroundColor="var(--grey)" color="var(--black)"/>
-      <Btn className="btn" to="/lashes"  text="Waxing & Lashes Menu" backgroundColor="var(--grey)" color="var(--black)"/>
-    </div>
+      <div className="schedule-btns">
+        <Btn className="btn" to="/lashes"  text="Lash Extensions" backgroundColor="var(--grey)" color="var(--black)"/>
+      </div>
     </PageWrapper>
   </Layout>
   )
@@ -76,41 +72,32 @@ export const query = graphql`
 `
 
 const PageWrapper = styled.section`
-    .menu-box {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-      flex-direction: row;
-      align-items: baseline;
-    }
-    .menu-box> div{
-      min-width: 250px;
-      max-width: 40%;
-    }
-    .head-span{
-      color: white;
+  .menu-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: baseline;
+  }
+  .menu-box> div{
+    min-width: 250px;
+    max-width: 40%;
+  }
+  .head-span{
+    color: white;
+    display: block;
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    text-align: center;
+    width: 100%;
+  }
+  .schedule-btns{
+    margin: 0 auto;
+    width: 100%;
+    .btn{
       display: block;
-      font-size: 2.5rem;
-      line-height: 2.5rem;
-      text-align: center;
-      width: 100%;
-    }
-    .click-to-schedule {
-      font-size: 0.9rem;
-      font-style: italic;
-      margin-top: 1rem;
-      text-align: center;
-    }
-    .schedule-btns{
-      margin: 0 auto;
-      margin-top: 3rem;
-      width: 100%;
-
-      .btn{
-        display: block;
-        margin: 2rem auto 0;
-        max-width: fit-content;
-      }
+      margin: 1rem auto 0;
+      max-width: fit-content;
     }
   }
 `

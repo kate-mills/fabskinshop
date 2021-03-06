@@ -7,15 +7,14 @@ import { SEO, FluidImage, Btn, ServiceItems } from "../components/Complete"
 const Treatments = (props) => {
   return(
   <Layout>
-    <SEO title={`A Clinical Approach To Skincare | ${props.data.site.siteMetadata.title}`} image={props.data.seoImg.childImageSharp.fluid.src}/>
+    <SEO
+      title={`Facials, Peels, & Skin Rejuvenation Procedures  with clinical Estheticians in Napa, CA | ${props.data.site.siteMetadata.title}`}
+      image={props.data.seoImg.childImageSharp.fluid.src}/>
     <PageWrapper>
       <FluidImage fluid={props.data.seoImg.childImageSharp.fluid} maxWidth="1000px"/>
       <section className="menu-box">
         <ServiceItems items={props.data.fp} category="Facials & Peels" />
-        <ServiceItems items={props.data.hr} category="Waxing" mini/>
-      </section>
-      <section className="menu-box">
-        <ServiceItems items={props.data.extras} category="Extras" />
+        <ServiceItems items={props.data.hr} category="Waxing" mini warning="*Facial waxing requires the discontinuation of retinoids for 7-10 days prior and is contraindicated for Accutane® users." warningWidth= "250px"/>
       </section>
       <Btn className="btn" to="/contact"  text="Contact Us" backgroundColor="var(--grey)" color="var(--black)"/>
     </PageWrapper>
@@ -28,9 +27,6 @@ const PageWrapper = styled.section`
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    > :nth-child(2){
-      max-width: 80%;
-    }
   }
   .head-span{
     color: white;
@@ -58,7 +54,6 @@ const PageWrapper = styled.section`
           max-width: 50%;
       }
       > :nth-child(2){
-        max-width: 35%;
       }
     }
   }
