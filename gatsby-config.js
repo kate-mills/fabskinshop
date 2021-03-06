@@ -94,7 +94,7 @@ module.exports = {
         tables: [
           {
             baseId: process.env.GATSBY_AIRTABLE_SEO_BUSINESS_BASE_ID,
-            tableName: `SuperSkinSpa`,
+            tableName: `FabSkinShop`,
           },
         ]
       }

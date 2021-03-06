@@ -17,7 +17,7 @@ const Makeup = (props) => {
       <FluidImage fluid={props.data.seoImg.childImageSharp.fluid} maxWidth="1000px"/>
       <div className="menu-box">
         <ServiceItems category="In Studio" items={inStudio} />
-        <ServiceItems category="On Location" items={onLocation}/>
+        <ServiceItems category="On Location" items={onLocation} warning=" *Additional charges may apply for travel time." warningWidth="310px"/>
       </div>
       <div className="schedule-btns">
         <Btn className="btn" to="/lashes"  text="Lash Extensions" backgroundColor="var(--grey)" color="var(--black)"/>
@@ -75,13 +75,14 @@ const PageWrapper = styled.section`
   .menu-box {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content:center;
     flex-direction: row;
     align-items: baseline;
   }
   .menu-box> div{
-    min-width: 250px;
-    max-width: 40%;
+    min-width: 350px;
+    max-width: 55%;
+    margin: 0.5rem;
   }
   .head-span{
     color: white;

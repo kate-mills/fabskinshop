@@ -26,7 +26,6 @@ const Contact = (props) => {
   )
 }
 
-
 const PageWrapper = styled.section`
   & {
     margin: 0 auto;
