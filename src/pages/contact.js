@@ -42,7 +42,7 @@ const PageWrapper = styled.section`
 
 export const query = graphql`
   {
-    seoImg: file(relativePath: { eq: "super-skin/super-skin-spa-contact.jpg" }) {
+    seoImg: file(relativePath: { eq: "super-skin/fab-skin-contact.jpg" }) {
       childImageSharp {
         fluid {
           src
