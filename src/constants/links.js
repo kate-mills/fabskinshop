@@ -12,15 +12,11 @@ const navigationLinks = [
     path: "/treatments/",
     links: [
       {
-        page: "Facials & Peels",
-        path: "/facials-peels/",
+        page: "Lashes",
+        path: "/lashes",
       },
       {
-        page: "Waxing & Lashes",
-        path: "/wax-and-lash",
-      },
-      {
-        page: "Makeup Services",
+        page: "Makeup",
         path: "/makeup",
       },
     ],

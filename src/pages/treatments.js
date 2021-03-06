@@ -11,11 +11,10 @@ const Treatments = (props) => {
     <PageWrapper>
       <FluidImage fluid={props.data.seoImg.childImageSharp.fluid} maxWidth="1000px"/>
       <section className="menu-box">
-        <ServiceItems items={props.data.lash} category="Lashes" />
+        <ServiceItems items={props.data.fp} category="Facials & Peels" />
         <ServiceItems items={props.data.hr} category="Waxing" mini/>
       </section>
       <section className="menu-box">
-        <ServiceItems items={props.data.fp} category="Facials & Peels" />
         <ServiceItems items={props.data.extras} category="Extras" />
       </section>
       <Btn className="btn" to="/contact"  text="Contact Us" backgroundColor="var(--grey)" color="var(--black)"/>
