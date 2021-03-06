@@ -24,7 +24,7 @@ const Home = (props) => {
           <h2>About Fab<span className="underline"/></h2>
           <p>All of our estheticians have worked with Dermatologists & Plastic Surgeons for well over a decade, giving them a clinical approach to skincare.</p>
           <p>With this background and continued education, our Estheticians will offer you a thorough skin analysis, as well as a broad range of treatment options perfectly suited to your needs.</p>
-         <Btn className="container-btn" to="/contact" text="Contact Us" backgroundColor="var(--grey)" color="var(--black)" hoverColor="var(--primaryColor)" hoverBackground="var(--primaryColor)" />
+          <Btn className="container-btn" to="/contact"  text="Contact Us" backgroundColor="var(--black)" color="var(--white)"/>
         </div>
       </div>
     </PageWrapper>

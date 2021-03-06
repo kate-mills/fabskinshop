@@ -10,7 +10,7 @@ export default styled(Btn)`
   background-color: ${props =>  props.backgroundColor? props.backgroundColor: `var(--primaryColor)`};
   border-width: 3px;
   border-color: ${props =>  props.backgroundColor ? props.backgroundColor : `var(--primaryColor)`};
-  border-radius: var(--radius);
+  border-radius: var(--altRadius);
   border-style: solid;
   color:var(--black);
   color: ${props =>  props.color ? props.color: `var(--black)`};

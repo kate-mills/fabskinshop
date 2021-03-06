@@ -20,7 +20,7 @@ const Makeup = (props) => {
         <ServiceItems category="On Location" items={onLocation} warning=" *Additional charges may apply for travel time." warningWidth="310px"/>
       </div>
       <div className="schedule-btns">
-        <Btn className="btn" to="/lashes"  text="Lash Extensions" backgroundColor="var(--grey)" color="var(--black)"/>
+        <Btn className="btn" to="/lashes"  text="Lash Extensions" backgroundColor="var(--black)" color="var(--white)"/>
       </div>
     </PageWrapper>
   </Layout>

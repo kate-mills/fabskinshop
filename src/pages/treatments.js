@@ -16,7 +16,7 @@ const Treatments = (props) => {
         <ServiceItems items={props.data.fp} category="Facials & Peels" />
         <ServiceItems items={props.data.hr} category="Waxing" mini warning="*Facial waxing requires the discontinuation of retinoids for 7-10 days prior and is contraindicated for Accutane® users." warningWidth= "250px"/>
       </section>
-      <Btn className="btn" to="/contact"  text="Contact Us" backgroundColor="var(--grey)" color="var(--black)"/>
+      <Btn className="btn" to="/contact"  text="Contact Us" backgroundColor="var(--black)" color="var(--white)"/>
     </PageWrapper>
   </Layout>
   )
@@ -52,8 +52,6 @@ const PageWrapper = styled.section`
       flex-wrap: nowrap;
       >:nth-child(1){
           max-width: 50%;
-      }
-      > :nth-child(2){
       }
     }
   }
