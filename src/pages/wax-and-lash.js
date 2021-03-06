@@ -76,7 +76,7 @@ export const query = graphql`
         }
       }
     }
-    seoImg:file(relativePath: { eq: "super-skin/super-skin-spa-lashes.jpg" }) {
+    seoImg:file(relativePath: { eq: "super-skin/fab-skin-lash.jpg" }) {
       childImageSharp {
         fluid {
           src
