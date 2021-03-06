@@ -1,6 +1,5 @@
 import React from "react"
 import { PopupWidget } from "react-calendly"
-
 import { Navbar, Sidebar, Footer, Banner } from "./Complete"
 import { useGlobalContext } from '../context/context'
 
@@ -12,7 +11,6 @@ const Layout = (props) => {
   const toggleSidebar = () => {
     setIsSidebarOpen(isSidebarOpen => !isSidebarOpen)
   }
-
   return (
     <>
       <Navbar  isSidebarOpen={isSidebarOpen} toggleSidebar={toggleSidebar} />

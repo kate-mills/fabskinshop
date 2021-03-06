@@ -87,8 +87,8 @@ const SidebarContainer = styled.div`
   .links a:hover {
     padding: 1rem 1.5rem;
     padding-left: 2rem;
-    background: var(--grey);
-    color: var(--black);
+    background: var(--primaryColor);
+    color: var(--white);
   }
   .sidebar {
     position: fixed;
@@ -96,7 +96,7 @@ const SidebarContainer = styled.div`
     left: 0;
     width: 100%;
     height: 100%;
-    background: var(--white);
+    background: var(--primaryLight);
     transition: var(--transition);
     transform: translate(-100%);
     z-index: -1;

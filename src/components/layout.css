@@ -4,8 +4,9 @@
   --white: #ffffff;
   --grey: gainsboro;
   --darkGrey: #a9a9a9ff;
+
   --primaryColor: lightcoral; /*hotpink;*/
-  --primaryLight: hotpink;
+  --primaryLight: #FBE9E7;
   --primaryDark: #D81B60; /* used in Title component */
   --descBg: #cccccc28;
 

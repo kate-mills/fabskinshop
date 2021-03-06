@@ -13,7 +13,7 @@ const Home = (props) => {
       <div className="flex-container">
         <div className="flex-item first">
         <FluidImage maxWidth="500px" fluid={props.data.file.childImageSharp.fluid}/>
-          <h2>Learn More<span className="underline"/></h2>
+          <h2>Our Menus<span className="underline"/></h2>
           <ul>
           <li className="link"> <Link to="/facials-peels">Facials & Peels</Link> </li>
           <li className="link"> <Link to="/wax-and-lash">Waxing & Lashes</Link> </li>
@@ -21,10 +21,9 @@ const Home = (props) => {
           </ul>
         </div>
         <div className="flex-item">
-          <h2>Intuitive Touch<span className="underline"/></h2>
+          <h2>About Us<span className="underline"/></h2>
           <p>All of our estheticians have worked with Dermatologists & Plastic Surgeons for well over a decade, giving them a clinical approach to skincare.</p>
           <p>With this background and continued education, our Estheticians will offer you a thorough skin analysis, as well as a broad range of treatment options perfectly suited to your needs.</p>
-          <p>We will bring new life to your skin with our nurturing and intuitive touch.</p>
          <Btn className="container-btn" to="/contact" text="Contact Us" backgroundColor="var(--grey)" color="var(--black)" hoverColor="var(--primaryColor)" hoverBackground="var(--primaryColor)" />
         </div>
       </div>
