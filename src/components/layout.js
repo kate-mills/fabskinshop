@@ -18,7 +18,7 @@ const Layout = (props) => {
       {/* eslint-disable-next-line jsx-a11y/no-static-element-interactions */}
       <div onFocus={closeSubmenu} style={{margin:`0 auto`,maxWidth:960,padding:`1rem 1.0875rem 1.45rem`,}} onMouseOver={closeSubmenu}>
         <main>
-          <PopupWidget color={`var(--primaryColor)`} text="Schedule Now" textColor="#ffffff" url="https://calendly.com/superskinspa" />
+          <PopupWidget color={`var(--primaryColor)`} text="Schedule Now" textColor="#ffffff" url="https://calendly.com/fabskinshop" style={{cursor: `pointer`}}/>
           <Banner title={props.title} subtitle={props.subtitle}>
             {props.bannerChildren}
           </Banner>
