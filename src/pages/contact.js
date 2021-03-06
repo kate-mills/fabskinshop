@@ -12,8 +12,8 @@ const Contact = (props) => {
     <Layout title="Contact Us" bannerChildren={child}>
 
       <SEO
-        title={`Contact Us About Our Facial Rejuvenation Treatments | ${props.data.site.siteMetadata.title}`}
-        description="If you have a question about our facial rejuvenation treatments or spa treatments, contact us to speak with a Licensed Esthetician in Napa, CA now."
+        title={`Contact Us About Facial Rejuvenation Treatments | ${props.data.site.siteMetadata.title}`}
+        description="If you have a question about facial rejuvenation treatments or spa treatments, contact us to speak with a Licensed Esthetician in Napa, CA now."
         image={props.data.seoImg.childImageSharp.fluid.src}
       />
       <PageWrapper>
